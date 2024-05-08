@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.series{
+    color: white;
+}
+
+.style{
+    background-color: #f74780;
+    color: white;
+    text-align: center;
+}
