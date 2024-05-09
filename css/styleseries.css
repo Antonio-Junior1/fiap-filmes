@@ -5,7 +5,7 @@ body {
     background-color: black;
 }
 
-.series{
+.logo{
     color: white;
 }
 
@@ -13,4 +13,35 @@ body {
     background-color: #f74780;
     color: white;
     text-align: center;
+}
+
+.serie { 
+    padding: 1% 2%;
+}
+
+.serie ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.serie li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.serie ul li h3 { 
+    font-size: 2rem;
+    color: white;
+    margin: 8px 0;
+}
+
+.serie, img {
+    width: 400px;
+    height: 600px;
+    margin-right: 10px;
 }
