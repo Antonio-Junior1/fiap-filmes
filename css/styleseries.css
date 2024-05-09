@@ -5,6 +5,14 @@ body {
     background-color: black;
 }
 
+header {
+    width: 100%;
+}
+
+header h1{
+    font-size: 20px;
+}
+
 .logo{
     color: white;
 }
@@ -16,14 +24,15 @@ body {
 }
 
 .serie { 
-    padding: 1% 2%;
+    padding: 1% 1%;
 }
 
-.serie ul {
+.serie ul {  
     list-style: none;
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
@@ -35,13 +44,13 @@ body {
 }
 
 .serie ul li h3 { 
-    font-size: 2rem;
+    font-size: 1rem;
     color: white;
     margin: 8px 0;
 }
 
-.serie, img {
-    width: 400px;
-    height: 600px;
-    margin-right: 10px;
+.serie ul li a img {
+    max-width: 200px;
+    max-height: 250px;
+    margin-right: 30px;
 }
