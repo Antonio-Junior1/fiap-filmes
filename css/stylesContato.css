@@ -37,6 +37,8 @@ header nav a {
     background-color: black;
     display:flex;
     margin:auto ;
+    align-items: center;
+    justify-content:center ;
     
     
 
