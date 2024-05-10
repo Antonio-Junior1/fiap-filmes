@@ -11,6 +11,7 @@ header {
     color: #fff;
     padding: 1em;
     text-align: center;
+    border: 1px solid #fff;
 }
 
 header nav ul {
@@ -31,10 +32,11 @@ header nav a {
 }
 .hero{
 
-    height: 500px;
-    width: 500px ;
-    border: 1px solid #f74780;
-    background-color: aqua;
+    height: 650px;
+    width: 600px ;
+    background-color: black;
+    display:flex;
+    margin:auto ;
     
     
 
@@ -43,6 +45,19 @@ header nav a {
 
 }
 .container{
+    border: 1px solid #f74780;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    color: #f74780;
+    border-radius: 100px;
+    height: 500px;
+    width: 700px;
+    justify-content: center;
+
+
+    
+    
    
 }
 
@@ -51,6 +66,7 @@ footer {
     color: #fff;
     padding: 1em;
     text-align: center;
+    border: 1px solid #fff;
 }
 
 footer p {

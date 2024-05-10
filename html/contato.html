@@ -19,14 +19,37 @@
     </header>
     <main class="hero">
         <div class="container">
-
+            <div class="box">
+                <div class="container">
+                    <div class="box">
+                        <h2>Entre em Contato</h2>
+                        <p>Entre em contato conosco para obter mais informações ou esclarecer dúvidas.</p>
+                        <form action="/enviar_contato" method="post">
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" id="nome" name="nome" required><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" required><br>
+                            <label for="mensagem">Mensagem:</label><br>
+                            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+                            <input type="submit" value="Enviar">
+                        </form>
+                        <p>Ou entre em contato pelos seguintes meios:</p>
+                        <ul>
+                            <li>Email: feedback@fiapVison.com</li>
+                            <li>Telefone: +55 (11) 1234-5678</li>
+                            <li>Endereço: Av paulista, 1234 - Cidade São Paulo - SP</li>
+                        </ul>
+                    </div>
+                </div>
+                
         </div>
+        
     </main>
 
 
 
 
     <footer>
-        <p>&copy; 2024 Max. Todos os direitos reservados.</p>
+        <p>&copy; 2024 F-V. Todos os direitos reservados.</p>
     </footer>
 </body>

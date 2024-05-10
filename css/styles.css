@@ -117,40 +117,6 @@ header nav a {
     background-color: black;
 }
 
-.Categorias {
-    background-color: black;
-    color: #ffff ;
-    padding: 1em;
-    text-align: center;
-}
-
-.Categorias h2 {
-    font-size: 34px;
-    margin-bottom: 60px;
-}
-
-.Categorias ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-}
-
-.Categoriasli {
-    margin: 0 10px;
-    
-}
-
-.Categorias a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.Categorias a:hover {
-    text-decoration: underline;
-}
 
 footer {
     background-color: black;
