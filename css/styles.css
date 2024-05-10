@@ -189,9 +189,8 @@ footer p {
 }
 .filmes-series{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #f74780;
-    
     
    
 }
