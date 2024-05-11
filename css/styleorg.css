@@ -27,7 +27,7 @@ main{
     background-repeat: no-repeat;
     min-height: 70vh;
     background-position: center center;
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #f74780;
 
     display: flex;
     align-items: end;
