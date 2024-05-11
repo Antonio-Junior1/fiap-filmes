@@ -38,4 +38,16 @@ main{
     min-height: 300px;
 }
 
+.trailer{
+    display: flex;
+    justify-content: center;
+    align-items: center center;
+}
 
+h3{
+   font-size: 23px; 
+}
+
+.sinopse{
+    font-size: 15;
+}
